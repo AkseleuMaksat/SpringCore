@@ -11,6 +11,9 @@ public class TestSpring {
 
         player.play();
 
+        System.out.println(player.getName());
+        System.out.println(player.getVolume());
+
         context.close();
     }
 }
